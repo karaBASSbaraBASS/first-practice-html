@@ -1,0 +1,127 @@
+body {
+  height: 100%;
+  margin: 0%, 0%, 0%, 0%;
+  min-width:760px;
+  width:expression(document.body.clientWidth < 760? "760px":   "auto" );
+  background-color: #333333;
+  }
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  background-color: #red;
+  width: 100%;
+}
+.header {
+  display: inline-block;
+  position: absolute;
+  height:70px;
+  background:#333;  
+}
+.white {
+  color: #E7E7E7;
+}
+a {
+   color: #E7E7E7; /* link color */ 
+   text-decoration: none; /* no underlining */
+   padding: 5px 15px;
+   }
+   a:visited {
+   color: #E7E7E7; /* link color */
+   text-decoration: none; /* no underlining */
+   } 
+   a:hover {
+   color: #FF3366; /* color under mouse */  
+   text-decoration: none; /* no underlining */
+   }
+nav  {
+  text-decoration: none;
+  background: #333;
+  color: white;
+  padding: 3px 8px;
+  text-align: right;
+}
+.header2 {
+  padding: 0px 5% 0px 5%;
+}
+.center {
+  padding: 70px 10% 60px 10%;
+  background: #E7E7E7;
+}
+.lastprojekt {
+   margin: 0% 10% 5% 10%;
+}
+.about {
+   padding: 50px 1px;
+}
+.c {
+    color: #E7E7E7;;  
+    background: #333;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none; 
+  }
+  .c:visited {
+    color: #E7E7E7; /* link color */
+ } 
+  .c:hover {
+    color: #FF3366;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+ }
+.project1 {
+  margin: 30px 1px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #333;
+  box-shadow: 0 0 10px;
+}
+.container-header {
+  border-radius: 10px 10px 0 0;
+  padding: 15px; 
+}
+.container-content {
+  border-radius: 0 0 10px 10px;
+  border: 1px solid gray;
+  border-top: transparent;
+  background-color: #cccccc;
+  min-height: 60px;
+}
+.project2 {
+  border: 2px solid #333;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 3px; 
+  background: #333333;
+  margin:5px;
+  box-shadow: 0 0 5px;
+  width:30%;
+}
+.slash {
+  color: #FF3366;
+}
+.line1{
+  height:1px; 
+  background:#cccccc;
+}
+.line2{
+  height:1px; 
+  background:#FFFFFF;
+}
+
+.content {
+  padding-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /*padding: 90px 0px 0px 0px;*/
+  background:#333333;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
